@@ -1,0 +1,30 @@
+====== STEPS TO CREATE Node-Express-MSSQL-CRUD ======
+
+1.   Go to directory/folder and create Node Js Project Folder.
+2.   GO to VS Code and Openthe New Project Folder.
+3.   On Project Folder Path install required packages for project.
+4.   Create package.json file. (npm init -y)
+5.   Install SQL Server Package (npm install express mssql cors body-parser)
+6.   Install ( npm install fs-extra) 
+     [fs-extra adds file system methods that aren't included in the native fs module and adds promise support to the fs methods.]
+
+
+7.  Install npm install nodemon --save-dev 
+    [nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.]
+
+
+8.  Install npm install dotenv 
+    [Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology].
+
+9.  Make App and Database Configurations.
+10. Include Configuration and Start Express Server in Index.js file.
+11. Make SQL Queries in .sql files to access and execute queries.
+12. Get all events logic (Folder Events ---> Index.js)
+13. Get one event logic (Folder Events ---> Index.js)
+14. Create event logic (Folder Events ---> Index.js)
+15. Update event logic (Folder Events ---> Index.js)
+16. Delete event logic (Folder Events ---> Index.js)
+
+17. SQL Server Manager Configurations, set sql express TCP/IP to enable and post all to 1433.
+
+====================================================== 

@@ -1,0 +1,33 @@
+================= Database Setup =================
+
+
+CREATE DATABASE EventManagement
+
+use EventManagement
+
+CREATE TABLE events(
+		    eventId int IDENTITY(1,1) PRIMARY KEY CLUSTERED NOT NULL,
+		    eventTitle nvarchar(100) NOT NULL,
+            eventDescription nvarchar(1500) NOT NULL,
+		    startDate date NOT NULL,
+		    endDate date NOT NULL,
+		    avenue nvarchar(200) NOT NULL,
+                    maxMembers int NOT NULL
+ 	     	   )
+
+
+SELECT * FROM events;
+
+
+INSERT INTO events(eventTitle,eventDescription,startDate,endDate,avenue,maxMembers)
+VALUES 
+(N'First Event',N'Here are the first event description','2023-12-20','2023-12-20',N'St Francis Xavier Cathedral, Hyd, Pakistan',1500)
+
+
+INSERT INTO events(eventTitle,eventDescription,startDate,endDate,avenue,maxMembers)
+VALUES 
+(N'Second Event',N'Here are the seconf event description','2023-12-28','2023-12-30',N'St Patrick  Cathedral, Khi, Pakistan',2200)
+
+
+
+=================================================== 
